@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="232" viewBox="0 0 800 232" role="img" aria-labelledby="dp-title dp-desc">
+  <title id="dp-title">Onevoke 已停止维护</title>
+  <desc id="dp-desc">Onevoke 已停止维护, 后续开发与修复都在新版 Kander, 请迁移到 https://github.com/dualface/kander</desc>
+
+  <defs>
+    <linearGradient id="warnbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="1" stop-color="#ffedd5"/>
+    </linearGradient>
+    <style>
+      .s { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: "SFMono-Regular", "Cascadia Mono", "Noto Sans Mono", "DejaVu Sans Mono", monospace; }
+      .big { font-size: 44px; font-weight: 700; fill: #b91c1c; }
+      .sub { font-size: 22px; fill: #7c2d12; }
+      .url { font-size: 20px; font-weight: 700; fill: #c2410c; }
+      .bang { font-size: 40px; font-weight: 700; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="798" height="230" rx="16" fill="url(#warnbg)" stroke="#fca5a5" stroke-width="2"/>
+  <path d="M1 17 A16 16 0 0 1 17 1 L28 1 L28 231 L17 231 A16 16 0 0 1 1 215 Z" fill="#dc2626"/>
+
+  <circle cx="92" cy="116" r="30" fill="#dc2626"/>
+  <text x="92" y="131" text-anchor="middle" class="s bang">!</text>
+
+  <text x="148" y="98" class="s big">Onevoke 已停止维护</text>
+  <text x="148" y="140" class="s sub">后续开发与修复都在新版 Kander, 请尽快迁移</text>
+  <text x="148" y="182" class="m url">https://github.com/dualface/kander</text>
+</svg>

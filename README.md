@@ -1,5 +1,13 @@
 # Onevoke
 
+[![Onevoke 已停止维护, 请迁移到 Kander](docs/deprecated.svg)](https://github.com/dualface/kander)
+
+> ## ⚠️ 本项目已停止维护
+>
+> **Onevoke 的后继版本是 [Kander](https://github.com/dualface/kander)**, 用 Go 重写, 修复了大量问题并补上了终端看板、审核门禁与跨平台支持.
+>
+> 本仓库不再接受新功能和 Bug 修复, 仅作存档. 请迁移到 **<https://github.com/dualface/kander>**.
+
 一个人用看板调度多个 AI Agent.
 
 ![Onevoke 工作流](docs/workflow.svg)
